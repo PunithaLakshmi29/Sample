@@ -1,0 +1,46 @@
+.a
+{
+    color: rgb(0, 113, 133);
+    transition: color 1s;
+}
+.a:hover{
+    color: rgb(255, 164, 28);
+}
+.p
+{
+    color: rgb(0,118,0);
+    font-weight: bold;
+}
+.Add_to_Cart
+{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    height: 30px;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+
+}
+.Add_to_Cart:hover{
+    background-color:rgb(240, 200, 18);
+}
+.Add_to_Cart:active{
+    opacity: 0.5;
+}
+.Buy_now
+{
+    background-color: rgb(255, 164, 28);
+    color: black;
+
+    height: 30px;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 7px;
+}
+.Buy_now:hover{
+    background-color: rgb(220,150,24);
+}
+.Buy_now:active{
+    opacity: 0.5;
+}

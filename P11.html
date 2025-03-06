@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>P11.html</title>
+        <style>
+            .grid1
+            {
+                display: grid;
+                grid-template-columns: 200px 75px;
+            }
+            .grid2
+            {
+                display: grid;
+                grid-template-columns: 50px 1fr 75px;
+                margin-top: 10px;
+            }
+            .grid3
+            {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                margin-top: 10px;
+                column-gap: 20px;
+                row-gap: 10px;
+            }
+            .grid4
+            {
+                display: grid;
+                grid-template-columns: 170px 170px 170px;
+                column-gap: 30px;
+                margin-top: 30px;
+                margin-left: 30px;
+            }
+            .img1, .img2, .img3
+            {
+                width: 100%;
+            }
+            
+            .div2
+            {
+                background-color: pink;
+            }
+            .div3
+            {
+                background-color: lightblue;
+            }
+            .d1{
+                background-color: pink;
+            }
+
+            .img1
+        {
+            width: 100%; 
+            margin-left: 0px;
+           
+            margin-right: 0px;
+        }
+        .img2
+        {
+            width: 100%;
+            margin-left: 0px;
+            margin-right: 0px;
+            
+            margin-top: 0px;
+           
+        }
+        .img3
+        {
+            width: 100%; 
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+      
+        .p1
+        {
+            font-weight: bold;
+            margin-left: 10px;
+            margin-bottom: 0px;
+            margin-top: 3px;
+            
+        }
+        .p2
+        {
+            color: grey;
+            margin-left: 0px;
+            margin-top: 2px;
+            margin-bottom: 0px;
+            display: inline-block;
+        }
+        
+        .p3
+        {
+            font-weight: bold;
+            margin-left: 10px;
+            margin-bottom: 0px;
+            margin-top: 3px;
+        }
+        .p4
+        {
+            color: grey;
+            margin-left: 10px;
+            margin-top: 2px;
+            margin-bottom: 0px;
+            display: inline-block;
+        }
+        .p5
+        {
+            font-weight: bold;
+            margin-left: 10px;
+            margin-bottom: 0px;
+            margin-top: 3px;
+        }
+        .p6
+        {
+            color: grey;
+            margin-left: 10px;
+            margin-top: 2px;
+            margin-bottom: 0px;
+            display: inline-block;
+        }
+       
+        .btn1
+        {
+            margin-left: 10px;
+            background-color: blue;
+            color: white;
+            border: none;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .btn2
+        {
+            margin-left: 10px;
+            background-color: blue;
+            color: white;
+            border: none;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .btn3
+        {
+            margin-left: 10px;
+            background-color: blue;
+            color: white;
+            border: none;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .minimg1
+        {
+            width: 20px;
+            display: inline-block;
+            margin-left: 10px;
+            border-radius: 20px;
+            vertical-align: middle;
+            
+        }
+        .minimg2
+        {
+            width: 20px;
+            display: inline-block;
+            margin-left: 10px;
+            border-radius: 20px;
+            vertical-align: middle;
+            
+        }
+        .minimg3
+        {
+            width: 20px;
+            display: inline-block;
+            margin-left: 10px;
+            border-radius: 20px;
+            vertical-align: middle;
+            
+        }
+        </style>
+    </head>
+    <body>
+        <div class="grid1">
+            <div class="div1">
+                200px
+            </div>
+            <div class="div2">
+                75px
+            </div>
+        </div>
+
+        <div class="grid2">
+            <div class="div1">
+                col1
+            </div>
+            <div class="div2">
+                col2
+            </div>
+            <div class="div3">
+                col3
+            </div>
+        </div>
+
+        <div class="grid3">
+            <div class="d1">
+                col1
+            </div>
+            <div class="d1">
+                col2
+            </div>
+            <div class="d1">
+                col3
+            </div>
+            <div class="d1">
+                col4
+            </div>
+            <div class="d1">
+                col1
+            </div>
+            <div class="d1">
+                col2
+            </div>
+            <div class="d1">
+                col3
+            </div>
+            <div class="d1">
+                col4
+            </div>
+        </div>
+
+        <div class="grid4">
+            <div class="d_1">
+                <img class="img1" src="Thumbnails\cbee.jpg">
+                <p class="p1">Shibiraj</p>
+                <img class="minimg1"src="Thumbnails/cbee.jpg">
+                <p class="p2">50 mutual friends</p>
+                <button class="btn1">Add Friend</button>
+            </div>
+            <div class="d_2">
+                <img class="img2" src="Thumbnails\kavi.jpg">
+                <p class="p3">Kavitha</p>
+                <img class="minimg1"src="Thumbnails/kavi.jpg">
+                <p class="p4">2 mutual friends</p>
+                <button class="btn2">Add Friend</button>
+            </div>
+            <div class="d_3">
+                <img class="img3" src="Thumbnails\puni.jpg">
+                <p class="p5">Punithalakshmi</p>
+                <img class="minimg1"src="Thumbnails/puni.jpg">
+                <p class="p6">2 mutual friends</p>
+                <button class="btn3">Add Friend</button>
+            </div>
+            
+        </div>
+    </body>
+</html>
